@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Network Forensics Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .header { background: #2c3e50; color: white; padding: 20px; }
+        .section { margin: 20px 0; padding: 15px; border-left: 4px solid #3498db; }
+        .critical { border-left-color: #e74c3c; background: #fdf2f2; }
+        .high { border-left-color: #f39c12; background: #fef9e7; }
+        .medium { border-left-color: #f1c40f; background: #fffbf0; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Network Forensics Analysis Report</h1>
+        <p>Generated: 2025-11-20 15:19:39</p>
+    </div>
+    
+    <div class="section">
+        <h2>Executive Summary</h2>
+        <p><strong>Total Packets Analyzed:</strong> 33</p>
+        <p><strong>Threats Detected:</strong> 4</p>
+        <p><strong>Risk Level:</strong> HIGH</p>
+    </div>
+    
+    <div class="section">
+        <h2>Threat Summary</h2>
+        <table>
+            <tr><th>Severity</th><th>Count</th></tr>
+            <tr><td>High</td><td>4</td></tr>
+            <tr><td>Medium</td><td>0</td></tr>
+            <tr><td>Low</td><td>0</td></tr>
+        </table>
+    </div>
+    
+    <div class="section">
+        <h2>Network Statistics</h2>
+        <table>
+            <tr><th>Metric</th><th>Value</th></tr>
+            <tr><td>Protocols</td><td>1</td></tr>
+            <tr><td>Conversations</td><td>17</td></tr>
+            <tr><td>DNS Queries</td><td>0</td></tr>
+            <tr><td>HTTP Requests</td><td>0</td></tr>
+        </table>
+    </div>
+    
+    <div class="section">
+        <h2>Detailed Findings</h2>
+        <h3>Top Protocols</h3>
+        <ul>
+            <li>TCP: 33</li>
+        </ul>
+        
+        <h3>Security Alerts</h3>
+        
+        <div class="section high">
+            <h4>Suspicious Port - High Severity</h4>
+            <p>Communication on known suspicious port tcp/4444</p>
+        </div>
+        
+        <div class="section high">
+            <h4>Suspicious Port - High Severity</h4>
+            <p>Communication on known suspicious port tcp/5555</p>
+        </div>
+        
+        <div class="section high">
+            <h4>Suspicious Port - High Severity</h4>
+            <p>Communication on known suspicious port tcp/6666</p>
+        </div>
+        
+        <div class="section high">
+            <h4>Suspicious Port - High Severity</h4>
+            <p>Communication on known suspicious port tcp/31337</p>
+        </div>
+        
+    </div>
+</body>
+</html>
+        

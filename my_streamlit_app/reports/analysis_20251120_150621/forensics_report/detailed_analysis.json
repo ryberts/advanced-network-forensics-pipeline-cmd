@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "generated_at": "2025-11-20T15:06:22.299778",
+    "analysis_version": "1.0"
+  },
+  "statistics": {
+    "total_packets": 61,
+    "protocols": {
+      "TCP": 58,
+      "UDP": 3
+    },
+    "conversations": {
+      "192.168.1.10 -> 93.184.216.34": 50,
+      "192.168.1.100 -> 192.168.1.50": 8,
+      "192.168.1.10 -> 8.8.8.8": 3
+    },
+    "ports": {
+      "tcp/80": 51,
+      "tcp/21": 1,
+      "tcp/22": 1,
+      "tcp/23": 1,
+      "tcp/25": 1,
+      "tcp/53": 1,
+      "tcp/443": 1,
+      "tcp/3389": 1,
+      "udp/53": 3
+    }
+  },
+  "threats": {
+    "high_severity": [],
+    "medium_severity": [],
+    "low_severity": [],
+    "summary": {
+      "total": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    }
+  },
+  "findings": {
+    "dns_queries": 3,
+    "http_requests": 0
+  }
+}
